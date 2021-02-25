@@ -1,6 +1,5 @@
 # Contacts-App
-App de contactos utilizando NodeJs y Firebase
+Lista de contactos :mailbox_with_mail:
 
-https://raw.githubusercontent.com/MeliYanguas/Contacts-App/main/screenshot.png
-
+utilizando NodeJs y Firebase 
 ![](screenshot.png)
