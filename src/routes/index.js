@@ -2,13 +2,13 @@ const { Router } = require('express');
 const router = Router();
 const admin = require('firebase-admin');
 
-var serviceAccount = require("../../fir-node-contacts-firebase-adminsdk-pesv9-1928d09330.json");
+var serviceAccount = require("../../fir-node-contacts-firebase.json");
 
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
     // credential: admin.credential.applicationDefault(),
-    databaseURL: 'https://fir-node-contacts-default-rtdb.firebaseio.com/'
+    databaseURL: 'https://fir-node-contacts-default.com/'
 });
 
 const db = admin.database();
